@@ -7,7 +7,7 @@ def parse_requirements(filename):
 setup(
     name='package-name',
     version='0.1.0',
-    packages=find_packages(),  # This should detect 'census_dashboard'
+    packages=find_packages(),
     include_package_data=True,
     install_requires=parse_requirements('requirements.txt')
 )
